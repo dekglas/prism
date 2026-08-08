@@ -52,8 +52,10 @@ Dekglas is designed to:
 - run as a self-contained container;
 - use read-only backend credentials;
 - present projects, stacks or workspaces, resources, outputs, update history, and active locks;
+- redact marked secrets without decrypting them;
+- collect or transmit no product-usage analytics;
 - keep raw state and deployment controls out of the browser; and
-- leave existing automation and state layout in place.
+- leave existing automation and state layouts unchanged.
 
 Dekglas does not own deployments, edit or offer raw state for download, decrypt protected secrets,
 or require a replacement CI/CD pipeline.
@@ -84,14 +86,9 @@ through a public release when it is ready to evaluate.
 
 ## The story behind the name
 
-Dekglas is a stylized form of *deck glass*, inspired by the deck prisms shipbuilders set into a
-vessel's deck to gather daylight and spread it into dark spaces below. A small, strong pane above
-made the structure beneath easier and safer to see.
+Dekglas is a stylized form of deck glass, inspired by the deck prisms shipbuilders set into a vessel’s deck to gather daylight and distribute it through the dark spaces below. These small, durable panes improved visibility, safety, and privacy below deck without opening enclosed compartments or relying on fire-lit lamps that could endanger the ship.
 
-Dekglas applies the same idea to infrastructure. State contains a detailed record of what a team
-operates, but that record often sits below the everyday workflow in object storage or another
-backend. Dekglas brings it into view as a shared operational model while keeping the safety boundary
-intact: observe with read-only access and leave deployment controls untouched.
+Dekglas applies the same principle to infrastructure. State contains a detailed record of what a team operates, but that record often remains hidden inside object storage or another backend. Dekglas brings it safely into view as a shared operational model—without exposing raw state, moving it beyond the environment you control, or introducing another system capable of changing your infrastructure. Observe with read-only access while leaving privacy and deployment controls intact.
 
 ## Images and releases
 
@@ -109,9 +106,7 @@ matching GitHub release.
 
 ## Feedback and security
 
-Public issue templates and support channels will arrive with the alpha. Until then, please do not
-post credentials, raw state, backend identifiers, proprietary configuration, or other sensitive
-infrastructure details in a public issue.
+Public issue templates and support channels will arrive with the alpha.
 
 ## Independence and trademarks
 
