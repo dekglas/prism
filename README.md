@@ -84,11 +84,20 @@ PostgreSQL, and local or shared filesystems.
 These integrations are product direction, not a claim of alpha availability. Each will be announced
 through a public release when it is ready to evaluate.
 
-## The story behind the name
+## The light behind Dekglas
 
-Dekglas is a stylized form of deck glass, inspired by the deck prisms shipbuilders set into a vessel’s deck to gather daylight and distribute it through the dark spaces below. These small, durable panes improved visibility, safety, and privacy below deck without opening enclosed compartments or relying on fire-lit lamps that could endanger the ship.
+Deck prisms, also known as deck glass, were set into a vessel’s deck by shipwrights to
+gather daylight and distribute it below. These durable panes improved visibility,
+safety, and privacy below deck entirely passively—without opening enclosed
+compartments or relying on firelight from torches or lanterns.
 
-Dekglas applies the same principle to infrastructure. State contains a detailed record of what a team operates, but that record often remains hidden inside object storage or another backend. Dekglas brings it safely into view as a shared operational model—without exposing raw state, moving it beyond the environment you control, or introducing another system capable of changing your infrastructure. Observe with read-only access while leaving privacy and deployment controls intact.
+Dekglas applies the same principle to infrastructure. State files contain a detailed
+record of what a team operates, but that record often remains hidden inside object
+storage or another backend. Dekglas brings it safely into view as a shared operational
+model—without exposing raw state, moving it beyond the environment you control, or
+introducing another system capable of changing your infrastructure. Observe with
+read-only access while leaving privacy and deployment controls intact. Dekglas
+collects no product-usage analytics and decrypts no protected secrets.
 
 ## Images and releases
 
