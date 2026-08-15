@@ -62,7 +62,7 @@ or require a replacement CI/CD pipeline.
 
 ## Alpha scope
 
-The August 15 alpha is intentionally narrow:
+The first public alpha is intentionally narrow:
 
 - Pulumi project-scoped and legacy stack layouts;
 - AWS S3 and compatible object-storage APIs;
