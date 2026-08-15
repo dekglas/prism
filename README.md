@@ -10,8 +10,8 @@ their deployment workflows.
 > Dekglas is pre-alpha. No supported public image has been released yet, and the current software
 > should not be connected to production infrastructure.
 >
-> Visit [www.dekglas.com](https://www.dekglas.com) again on **August 15, 2026** for the first alpha:
-> Pulumi with S3 and S3-compatible DIY backends.
+> A supported public alpha will be announced here only with its corresponding image, release notes,
+> operational documentation, and verification material.
 
 ## Links
 
@@ -62,7 +62,7 @@ or require a replacement CI/CD pipeline.
 
 ## Alpha scope
 
-The August 15 alpha is intentionally narrow:
+The first public alpha is intentionally narrow:
 
 - Pulumi project-scoped and legacy stack layouts;
 - AWS S3 and compatible object-storage APIs;
