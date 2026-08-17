@@ -16,7 +16,8 @@ When a supported release is available, its GitHub Release will identify:
 - allowlisted installation, configuration, upgrade, recovery, and security documentation.
 
 Supported installation instructions will always point back to the matching release record. There
-is no supported `latest`, branch, commit, candidate, or test tag.
+is no supported `latest`, branch, commit, candidate, or test tag. Use of published Prism container
+images is governed by [LICENSE.md](LICENSE.md).
 
 ## Distribution coordinates
 
