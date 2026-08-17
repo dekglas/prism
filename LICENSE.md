@@ -12,6 +12,8 @@ Subject to your compliance with this License, Dekglas grants you a limited, non-
 
 **Licensed Editions (All Tiers):** Access to the features of any Licensed Edition requires a valid, active license key purchased from Dekglas. The Software is offered in multiple licensed tiers, each unlocking specific features, capacities, or usage limits. You may only use the features and capacity corresponding to the specific Licensed Edition tier you have purchased, for the duration specified in your purchase order.
 
+**Enterprise Advanced Security:** Enterprise Advanced Security is a Licensed Edition intended for offline, air-gapped, and restricted environments. It is activated by a signed license document issued by Dekglas and installed alongside the Software, rather than by a license key validated against Dekglas license servers, and the Software makes no outbound connection to Dekglas when operating under an Enterprise Advanced Security license. References in this License to a "license key" include such signed license documents.
+
 **No Source Code:** This License does not grant any rights to the source code of the Software.
 
 ## 3. Restrictions
