@@ -21,8 +21,8 @@ images is governed by [LICENSE.md](LICENSE.md).
 
 ## Distribution coordinates
 
-| Purpose         | Coordinate                | Current state                          |
-| --------------- | ------------------------- | -------------------------------------- |
+| Purpose         | Coordinate                | Current state                         |
+| --------------- | ------------------------- | ------------------------------------- |
 | Canonical image | `ghcr.io/dekglas/prism`   | No package or supported tag published |
 | Public mirror   | `docker.io/dekglas/prism` | Public repository; no tag published   |
 
@@ -37,8 +37,10 @@ and unannounced product direction are not published here.
 
 The public website is [www.dekglas.com](https://www.dekglas.com).
 
-Until a supported release provides a private reporting process, do not put sensitive vulnerability
-details in a public issue.
+GitHub private vulnerability reporting is enabled on this repository. Use the **Security** tab and
+choose **Report a vulnerability**; never put sensitive vulnerability details in a public issue. The
+channel has not been rehearsed end to end, so no measured acknowledgement time or response
+commitment is stated.
 
 ## Independence and trademarks
 
